@@ -47,7 +47,7 @@ class BestSlider extends Component {
                     <div>
                         <img src="asset/img/best06.jpg" alt="" />
                         <h3>다시 초롱 파우더 대용량 세트</h3>
-                        <p>136.200원</p>
+                        <p>136.100원</p>
                     </div>
                 </Slider>
             </div>
