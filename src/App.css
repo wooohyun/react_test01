@@ -1,38 +1,81 @@
-.App {
+.Wrap {
+  max-width: 1920px;
+}
+
+.header {
+  width: 100%;
+  line-height: 100px;
+  color: #fff;
+  font-size: 19px;
+  z-index: 999;
+}
+
+.header .container {
+  width: 1200px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+/* .header img {
+  transform: scale(0.5);
+} */
+
+.header nav {
+  display: flex;
+  justify-content: space-between
+}
+
+.header nav>* {
+  flex: 1;
+}
+
+.header h1 {
+  margin: -15px 0 0 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header nav>ul {
+  font-size: 15px;
+  font-weight: 300;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.header nav>ul.right {
+  justify-content: flex-end;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header nav>ul li{
+  color: #000;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.BestSeller{
+  position: relative;
+  padding: 155px 0 0 0;
+ }
+
+ .BestSeller .container{
+  width: 1520px;
+  margin: 0 auto;
+
+ }
+
+.BestSeller h2{
+font-size: 31px;
+margin-left: 10px;
+line-height: 1.45em;
+}
+
+.BestSeller h3{
+font-size: 19px;
+line-height: 1.45em;
+margin-left: 10px;
+margin-bottom: 30px;
+}
+
+.BestSeller .BestSlide .slick-slide {
+  padding: 0 10px;
+  gap: 40px;
 }
